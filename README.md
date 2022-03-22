@@ -8,8 +8,8 @@ Your task is to figure out how this code works.
 * Write a summary of what the function does.
 
 ```js
-function (person, petName){
-  for (dog in person.dogs){
+function (person, petName){        //Mark, Patch
+  for (dog in person.dogs){        // 
     if (dog.name === petName){
       return dog
     }
@@ -19,14 +19,14 @@ function (person, petName){
 
 | Input | Output |
 | ----- | ------ |
-|       |        | 
-|       |        | 
-|       |        | 
+|(Mark, Patch)|        | 
+|(Sara, Lexie)|        | 
+|(Mel, Paxie) |        | 
 
 <table>
   <tr>
     <th>What does this program do?</th>
-    <td></td>
+    <td>The function has two parameters, one for the person's name and one of the pet's name.   </td>
   </tr>
 </table>
 
