@@ -21,9 +21,9 @@ Inputs and outputs should be valid JavaScript values!
 
 | Input | Output |
 | ----- | ------ |
-|(Mark, Patch) const mark = {name: "Mark", dogs [name:"Patch"' breed: "Lab", age: "10"]} | [name:"Patch"' breed: "Lab", age: "10" ]|
-|(Sara, Lexie) const sara = {name: "Sara",dogs [name:"Lexie", breed: "shnauzer", age="3"]}| [name:"Lexie", breed: "shnauzer", age="3"]| 
-|(Mel, Wishbone) const mel = {name: "Mel", dogs[name:"Paxie" breed: "German Sheperd", age="1" ]}| error, Wishbone not found| 
+|(Mark, Patch) const mark = {name: "Mark", dogs:[{name:"Patch"' breed: "Lab", age: "10"]} | {name:"Patch"' breed: "Lab", age: "10" }|
+|(Sara, Lexie) const sara = {name: "Sara",dogs:[{name:"Lexie", breed: "shnauzer", age="3"}]}| {name:"Lexie", breed: "shnauzer", age="3"}| 
+|(Mel, Wishbone) const mel = {name: "Mel", dogs:[{name:"Paxie" breed: "German Sheperd", age="1" }]}| error, Wishbone not found| 
 
 <table>
   <tr>
